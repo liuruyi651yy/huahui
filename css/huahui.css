@@ -1,0 +1,575 @@
+/*清除列表样式*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;     /*清除下划线*/
+}
+.bigbox{
+    width: 100%;
+    height: 100%;
+    position:relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+/*头部导航开始*/
+.flowers-header{
+    width:100%;
+    height: 79px;
+    background: rgba(0,0,0,0.1);
+    margin: auto;
+    position: fixed;
+    z-index: 999;
+
+}
+.header-top{
+    width: 1310px;
+    height: 100%;
+    /*background: #333333;*/
+    margin: 0 auto;
+}
+.header-logo{
+    width: 150px;
+    height: 50px;
+    /*background: #9bff2f;*/
+    margin-top: 14.5px;
+    float: left;
+}
+.header-logo img{
+    width: 150px;
+    height: 50px;
+}
+.header-na{
+    width: 56px;
+    height:79px;
+    /*background: #ff6700;*/
+    float: right;
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 79px;
+    cursor: pointer;
+    color: #11c5ff /*变小手*/
+}
+.header-nav{
+    width: 56px;
+    height:79px;
+    /*background: #ff6700;*/
+    float: right;
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 79px;
+    cursor: pointer;      /*变小手*/
+}
+a{
+ text-decoration: none;
+    color: #ffffff;
+}
+.header-nav:hover{
+    color: #11c5ff;
+}
+/*头部导航结束*/
+
+/*大图片*/
+.flowers-banner{
+    width:100%;
+    height: 950px;
+    /*background: cyan;*/
+    margin: 0 auto;
+    float:left;
+    position: relative;
+}
+.flowers-banner img{
+    width: 100%;
+    height: 950px;
+    margin: 0 auto;
+}
+.banner-content{
+    width: 1012.8px;
+    height: 54px;
+    /*background: cyan;*/
+    margin: 0 auto;
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    text-align: center;
+    color: #fff;
+    line-height: 54px;
+    font-size: 30px;
+    padding: 20px 0;
+    cursor: pointer;      /*变小手*/
+}
+.dots{
+    width: 1012px;
+    height: 20px;
+    /*background: cyan;*/
+    margin-left: -506px ;
+    position: absolute;
+    top:910px;
+    right: 337px;
+    bottom:20px;
+    left:844px;
+    float: left;
+}
+.dote{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+    float: left;
+    position: absolute;
+    bottom: 10px;
+    left: 49%;
+    top:5px;
+    margin-left: 15px;
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #333333;
+    float: left;
+    position: absolute;
+    bottom: 10px;
+    left:49%;
+    top:5px;
+}
+/*大图片*/
+
+
+
+/*花艺*/
+/*大盒子*/
+.flowers-art{
+    width: 1688px;
+    height: 578px;
+    /*background: #ff6700;*/
+    float: left;
+    padding: 70px 0;
+}
+/*第一行*/
+.art-top{
+    width: 1280px;
+    height: 43px;
+    /*background: #333333;*/
+    margin:0 auto 11px;
+
+
+}
+.art-big{
+    width: 150px;
+    height: 43px;
+    /*background: #333333;*/
+   margin-left: 550px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+    float: left;
+
+
+}
+.art-small{
+    width: 32px;
+    height: 21px;
+    background: cyan;
+    border: 1px solid #00ffff;
+    float: left;
+    margin-top:10px;
+    margin-left: 15px;
+    color: #f0f0f0;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;      /*变小手*/
+}
+/*第二行*/
+.art-neck {
+    width: 1280px;
+    height: 22px;
+    /*background: #2d3eff;*/
+    margin: 0 auto 11px;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 20px;
+}
+/*第三行*/
+/*大盒子*/
+.art-belly{
+    width: 1160px;
+    height: 500px;
+    /*background: #212121;*/
+    padding: 0 60px;
+    margin: 0 auto;
+}
+/*三个小盒子*/
+.art-picture{
+    width: 366px;
+    height: 464px;
+    /*background: cyan;*/
+    float: left;
+    margin-left: 12px;
+}
+/*小盒子shux*/
+.picture-one{
+    width: 366px;
+    height: 366px;
+    /*background: #ff6700;*/
+
+}
+.picture-one img{
+    width: 366px;
+    height: 366px;
+    border-radius: 50%;
+}
+.picture-two{
+    width:366px;
+    height: 21.6px;
+    /*background: #9bff2f;*/
+    margin: 11px 0;
+    font-size: 18px;
+    text-align: center;
+
+}
+.picture-three{
+    width: 366px;
+    height:43px;
+    /*background: #e33333;*/
+    margin-bottom: 11px;
+    font-size: 14px;
+    text-align: center;
+}
+.picture-four{
+    width: 334px;
+    height: 23px;
+    background: #f96868;
+    padding: 6px 15px;
+    border: 1px solid #f96868;
+    text-align: center;
+    color: #f0f0f0;
+    cursor: pointer;      /*变小手*/
+}
+/*花艺*/
+
+
+/*花语*/
+/*大盒子*/
+.flowers-language{
+    width: 1688px;
+    height: 567px;
+    /*background: #9bff2f;*/
+    float: left;
+    padding: 70px 0;
+}
+/*头部盒子*/
+.language-top{
+    width: 1280px;
+    height: 43px;
+    /*background: #f0f0f0;*/
+    margin: 0 auto;
+    position: relative;
+}
+.language-big{
+    width: 150px;
+    height: 43px;
+    /*background: #333333;*/
+    margin-left: 550px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+    float: left;
+
+
+}
+.language-small{
+    width: 32px;
+    height: 21px;
+    background: cyan;
+    border: 1px solid #00ffff;
+    float: left;
+    margin-top:10px;
+    margin-left: 15px;
+    color: #f0f0f0;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;      /*变小手*/
+}
+.language-neck {
+    width: 1280px;
+    height: 22px;
+    /*background: #2d3eff;*/
+    margin: 0 auto 11px;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 20px;
+}
+/*下面大盒子*/
+.language-conter{
+    width: 1310px;
+    height: 504px;
+    /*background: red;*/
+    margin: 0 auto;
+    margin-top: 20px;
+}
+/*下面大盒子的八个小盒子*/
+.conter-one{
+    width: 625px;
+    height: 96px;
+    /*background: #e2e5e6;*/
+    margin-top: 20px;
+    padding: 0 15px;
+    float: left;
+}
+.one-picture{
+    width: 160px;
+    height: 96px;
+    /*background: #9bff2f;*/
+    float: left;
+    padding-right: 20px;
+}
+.one-picture img{
+    width: 160px;
+    height: 96px;
+}
+/*小盒子的内容*/
+.words-one{
+    width: 444px;
+    height: 21.6px;
+    /*background: #00a5c4;*/
+    float: left;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;   /*变手*/
+}
+.words-one:hover{
+    color: cyan;
+}
+.words-two{
+    width: 444px;
+    height: 43px;
+    /*background: #212121;*/
+    margin-bottom: 5px;
+    float: left;
+    font-size: 14px;
+    font-weight: 300;
+}
+.words-three{
+    width: 444px;
+    height: 21.6px;
+    /*background: #00a5c4;*/
+    float: left;
+}
+.three-a{
+    width: 66px;
+    height: 19.2px;
+    /*background: #e33333;*/
+    float: left;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 25px;
+
+}
+.three-b{
+    width: 66px;
+    height: 19.2px;
+    /*background: #e33333;*/
+    float: left;
+    margin-left: 10px;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 25px;
+}
+.three-c{
+    width: 66px;
+    height: 19.2px;
+    /*background: #e33333;*/
+    float: left;
+    margin-left: 10px;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 20px;
+}
+/*花语*/
+
+
+
+/*工作室*/
+.flowers-studio{
+    width: 1688px;
+    height: 768px;
+    /*background: cyan;*/
+    float: left;
+    margin: 0 auto;
+    padding: 70px 0;
+    border-bottom: 1px solid #e2e5e6;
+}
+.studio-top{
+    width: 1280px;
+    height: 43px;
+    /*background: #e33333;*/
+    margin: 0 auto;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 11px;
+}
+.studio-neck{
+    width: 1220px;
+    height: 615px;
+    /*background: #9bff2f;*/
+    margin: 50px auto 0;
+    padding: 30px;
+
+}
+.neck-one{
+    width: 1220px;
+    height: 32px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+.neck-two{
+    width: 1220px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+.neck-three{
+    width: 1220px;
+    height: 340px;
+    /*background: #1d24ff;*/
+    margin: 0 auto;
+    float: left;
+}
+.neck-three img{
+    width: 530px;
+    height: 340px;
+    margin-left: 345px;
+}
+/*工作室*/
+
+
+
+/*底部*/
+.flowers-last{
+    width: 1688px;
+    height: 45.5px;
+    /*background: #e33333;*/
+    padding: 5px 0;
+    margin-top: 10px;
+    float: left;
+}
+.last-box{
+    width: 120px;
+    height: 28px;
+    /*background: #212121;*/
+    margin: 8px auto;
+
+}
+.last-one{
+    width: 30px;
+    height: 28px;
+    /*background: cyan;*/
+    float: left;
+    margin-right: 15px;
+
+
+}
+.last-one i{
+    color: #15ff07;
+    font-size: 26px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;/*加小手*/
+}
+
+.last-two{
+    width: 30px;
+    height: 28px;
+    /*background: cyan;*/
+    float: left;
+    }
+.last-two i{
+    color: #2d3eff;
+    font-size: 26px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;/*加小手*/
+}
+
+.last-three{
+    width: 30px;
+    height: 28px;
+    /*background: cyan;*/
+    float: right;
+}
+.last-three i{
+    color: #2d3eff;
+    font-size: 26px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;/*加小手*/
+}
+
+.flowers-footer{
+    width: 1688px;
+    height: 75.6px;
+    /*background: cyan;*/
+    float: left;
+}
+.footer-one{
+    width: 1280px;
+    height: 25px;
+    /*background: #7c42e3;*/
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+}
+.footer-box{
+    width:355px;
+    height: 25px;
+    /*background: #e33333;*/
+    margin: 0 auto;
+}
+.footer-big{
+    width: 126px;
+    height: 25px;
+    /*background: #212121;*/
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;/*变小手*/
+}
+.footer-big:hover{
+    color: cyan;
+}
+.footer-small{
+    width: 219px;
+    height: 25px;
+    /*background: #2e70ff;*/
+    float: right;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;/*变小手*/
+}
+.footer-small:hover{
+    color: cyan;
+}
+/*底部*/

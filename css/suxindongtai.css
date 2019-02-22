@@ -1,0 +1,516 @@
+/*清除列表样式*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none; /*清除下划线*/
+    color: #070700;
+    opacity: 0.6;
+}
+
+body {
+    background: #f0f0f0;
+}
+
+.bigbox {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+/*头部导航开始*/
+.flowers-header {
+    width: 100%;
+    height: 79px;
+    background: #ffffff;
+    margin: auto;
+    position: fixed;
+    z-index: 999;
+
+}
+
+.header-top {
+    width: 1310px;
+    height: 100%;
+    /*background: #333333;*/
+    margin: 0 auto;
+}
+
+.header-logo {
+    width: 150px;
+    height: 50px;
+    /*background: #9bff2f;*/
+    margin-top: 14.5px;
+    float: left;
+}
+
+.header-logo img {
+    width: 150px;
+    height: 50px;
+}
+
+.header-na {
+    width: 56px;
+    height: 79px;
+    /*background: #ff6700;*/
+    float: right;
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 79px;
+    cursor: pointer;
+    color: #11c5ff /*变小手*/
+}
+
+.header-nav {
+    width: 56px;
+    height: 79px;
+    /*background: #ff6700;*/
+    float: right;
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 79px;
+    cursor: pointer; /*变小手*/
+}
+
+.header-nav:hover {
+    color: #11c5ff;
+}
+
+/*头部导航结束*/
+
+
+/*第二行开始*/
+.flowers-two {
+    width: 140px;
+    height: 42px;
+    /*background: #0c00fa;*/
+    position: absolute;
+    top: 100px;
+    left: 45%;
+    color: #F67A82;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 35px;
+}
+
+/*第二行结束*/
+
+
+/*第三行开始*/
+/*大背景*/
+.flowers-three {
+    width: 100%;
+    height: 1120px;
+    /*background: cyan;*/
+    position: absolute;
+    top: 162px;
+}
+
+/*大盒子*/
+.three-bigger {
+    width: 1154px;
+    height: 1120px;
+    /*background: #0c00fa;*/
+    margin: 0 auto;
+    position: relative;
+}
+
+/*左盒子*/
+.bigger-left {
+    width: 818px;
+    height: 1120px;
+    background: #ffffff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/*小盒子*/
+.left-bigger1 {
+    width: 818px;
+    height: 160px;
+    /*background: #ff6700;*/
+    border-bottom: 2px solid #f0f2f5;
+    position: relative;
+}
+
+.left-bigger1 img {
+    width: 160px;
+    height: 160px;
+}
+
+.bigger1-one {
+    width: 317px;
+    height: 27px;
+    /*background: #0c00fa;*/
+    position: absolute;
+    left: 180px;
+    top: 10px;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #37474f;
+    cursor: pointer;
+}
+
+.bigger1-two {
+    width: 634px;
+    height: 48px;
+    /*background: #69fa85;*/
+    position: absolute;
+    left: 180px;
+    top: 57px;
+    color: #76838f;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.bigger1-three {
+    width: 634px;
+    height: 24px;
+    /*background: cyan;*/
+    position: absolute;
+    left: 180px;
+    bottom: 0;
+    color: #a3afb7;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.three-small1 {
+    width: 90px;
+    height: 24px;
+    /*background: #3522ff;*/
+    position: absolute;
+}
+
+.three-small2 {
+    width: 48px;
+    height: 24px;
+    /*background: #2f43ff;*/
+    margin-left: 24px;
+    position: absolute;
+    left: 90px;
+}
+
+.three-small3 {
+    width: 80px;
+    height: 24px;
+    /*background: #2a36ff;*/
+    position: absolute;
+    left: 200px;
+}
+
+.left-bigger2 {
+    width: 818px;
+    height: 176px;
+    /*background: #ff6700;*/
+    border-bottom: 2px solid #f0f2f5;
+    position: relative;
+}
+
+.left-bigger2 img {
+    width: 160px;
+    height: 160px;
+    margin-top: 8px;
+}
+
+.bigger2-one {
+    width: 634px;
+    height: 27px;
+    /*background: #0c00fa;*/
+    position: absolute;
+    left: 180px;
+    top: 10px;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #37474f;
+    cursor: pointer;
+}
+
+.bigger2-two {
+    width: 634px;
+    height: 96px;
+    /*background: #69fa85;*/
+    position: absolute;
+    left: 180px;
+    top: 47px;
+    color: #76838f;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.bigger2-three {
+    width: 634px;
+    height: 24px;
+    /*background: cyan;*/
+    position: absolute;
+    left: 180px;
+    bottom: 0;
+    color: #a3afb7;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.left-bigger4 {
+    width: 818px;
+    height: 40px;
+    /*background: #ff6700;*/
+}
+
+.bigger4-small {
+    width: 260px;
+    height: 38px;
+    /*background: cyan;*/
+    margin: 1px auto;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #f0f2f5;
+}
+
+
+/*右盒子*/
+.bigger-right {
+    width: 223px;
+    height: 316px;
+    background: #ffffff;
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.right-small1 {
+    width: 223px;
+    height: 40px;
+    /*background-color: #0bf22c;*/
+    border-bottom: 1px solid #f0f2f5;
+
+}
+
+.right-small1 input {
+    width: 200px;
+    height: 20px;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    outline: none; /*去框*/
+}
+
+.right-small1 i {
+    font-size: 20px;
+    color: #070700;
+    opacity: 0.6;
+    position: absolute;
+    top: 18px;
+    right: 20px;
+}
+
+.right-small2 {
+    width: 223px;
+    height: 204px;
+    /*background-color: #0bf22c;*/
+}
+
+.small-two {
+    width: 201px;
+    height: 30px;
+    /*background: cyan;*/
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #37474f;
+    cursor: pointer;
+}
+
+.small-one {
+    width: 201px;
+    height: 45px;
+    border: 1px solid #f0f2f5;
+    margin: 0 auto;
+    font-size: 22px;
+    text-align: center;
+    line-height: 45px;
+    color: #2a333c;
+    cursor: pointer;
+}
+
+.small-one:hover {
+    color: cyan;
+}
+
+.right-small3 {
+    width: 203px;
+    height: 40px;
+    /*background-color: #0bf22c;*/
+    border-top: 1px solid #f0f2f5;
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #37474f;
+    cursor: pointer;
+
+}
+
+.right-small3:hover {
+    color: cyan;
+}
+
+/*第三行结束*/
+
+/*底部*/
+.flowers-last {
+    width: 100%;
+    height: 45.5px;
+    /*background: #e33333;*/
+    position: absolute;
+    top: 1350px;
+}
+
+.last-box {
+    width: 120px;
+    height: 28px;
+    /*background: #212121;*/
+    margin: 8px auto;
+
+}
+
+.last-one {
+    width: 30px;
+    height: 28px;
+    /*background: cyan;*/
+    float: left;
+    margin-right: 15px;
+
+
+}
+
+.last-one i {
+    color: #15ff07;
+    font-size: 26px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer; /*加小手*/
+}
+
+.last-two {
+    width: 30px;
+    height: 28px;
+    /*background: cyan;*/
+    float: left;
+}
+
+.last-two i {
+    color: #2d3eff;
+    font-size: 26px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer; /*加小手*/
+}
+
+.last-three {
+    width: 30px;
+    height: 28px;
+    /*background: cyan;*/
+    float: right;
+}
+
+.last-three i {
+    color: #2d3eff;
+    font-size: 26px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer; /*加小手*/
+}
+
+/*底部*/
+.flowers-footer {
+    width: 100%;
+    height: 75.6px;
+    /*background: cyan;*/
+    position: absolute;
+    top: 1400px;
+}
+
+.footer-one {
+    width: 1280px;
+    height: 25px;
+    /*background: #7c42e3;*/
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.footer-box {
+    width: 355px;
+    height: 25px;
+    /*background: #e33333;*/
+    margin: 0 auto;
+}
+
+.footer-big {
+    width: 126px;
+    height: 25px;
+    /*background: #212121;*/
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer; /*变小手*/
+}
+
+.footer-big:hover {
+    color: cyan;
+}
+
+.footer-small {
+    width: 219px;
+    height: 25px;
+    /*background: #2e70ff;*/
+    float: right;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer; /*变小手*/
+}
+
+.footer-small:hover {
+    color: cyan;
+}
+
+/*底部*/
+
+
+
+
+
+
+
+
+
+
+
+
+
